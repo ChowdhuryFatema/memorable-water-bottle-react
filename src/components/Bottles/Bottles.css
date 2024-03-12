@@ -1,0 +1,32 @@
+.bottle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.bottles {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.bottle-single {
+    flex-basis: 75%;
+}
+.side-bar {
+    flex-basis: 23%;
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .bottle-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bottles {
+        flex-direction: column;
+    }
+    
+    .bottle-single, .side-bar {
+        flex-basis: 100%;
+    }
+}

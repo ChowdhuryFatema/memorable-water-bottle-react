@@ -1,0 +1,15 @@
+.bottle {
+    border: 1px solid salmon;
+    border-radius: 15px;
+    padding: 15px;
+}
+.bottle img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 780px) {
+    .bottle img {
+        width: 100%;
+    }
+}

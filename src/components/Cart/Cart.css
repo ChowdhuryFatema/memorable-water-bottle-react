@@ -1,0 +1,32 @@
+.cart {
+    border: 1px solid salmon;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.cart-container img {
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.cart-container h3 {
+    font-size: 14px;
+}
+
+.add-cart {
+    border-bottom: 1px solid goldenrod;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+
+.add-cart button {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    .cart-container img {
+        width: 50%;
+    }
+}
